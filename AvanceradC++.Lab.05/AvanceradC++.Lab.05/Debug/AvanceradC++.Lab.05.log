@@ -1,0 +1,9 @@
+﻿  AvanceradC++.Lab.05.cpp
+c:\users\tom\documents\visual studio 2015\projects\avanceradc++.lab.05\avanceradc++.lab.05\string.h(42): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  StringTest.cpp
+  StringIttTest.cpp
+  String.cpp
+  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\Visual Studio 2015\Projects\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.exe
+  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\Visual Studio 2015\Projects\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.pdb (Full PDB)

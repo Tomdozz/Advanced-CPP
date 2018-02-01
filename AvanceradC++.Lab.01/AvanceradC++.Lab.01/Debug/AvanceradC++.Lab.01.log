@@ -1,0 +1,28 @@
+﻿  AvanceradC++.Lab.01.cpp
+c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(6): warning C4603: 'DBG_NEW': macro is not defined or definition is different after precompiled header use
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(6): note: Add macro to precompiled header instead of defining here
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(11): note: use of precompiled header
+c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(7): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(7): note: Add macro to precompiled header instead of defining here
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(11): note: use of precompiled header
+c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\link.h(139): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(62): note: see reference to function template instantiation 'T *Link<T>::FindNext<int>(const arg &)' being compiled
+          with
+          [
+              T=Node,
+              arg=int
+          ]
+  c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\avanceradc++.lab.01.cpp(62): note: see reference to function template instantiation 'T *Link<T>::FindNext<int>(const arg &)' being compiled
+          with
+          [
+              T=Node,
+              arg=int
+          ]
+  Generating Code...
+c:\users\tom\onedrive\dokument\github\avanceradc++.lab.01\avanceradc++.lab.01\link.h(146): warning C4715: 'Link<Node>::FindNext<int>': not all control paths return a value
+  Compiling...
+  List.cpp
+  Link.cpp
+  Generating Code...
+  AvanceradC++.Lab.01.vcxproj -> C:\Users\Tom\OneDrive\Dokument\GitHub\AvanceradC++.Lab.01\Debug\AvanceradC++.Lab.01.exe
+  AvanceradC++.Lab.01.vcxproj -> C:\Users\Tom\OneDrive\Dokument\GitHub\AvanceradC++.Lab.01\Debug\AvanceradC++.Lab.01.pdb (Full PDB)

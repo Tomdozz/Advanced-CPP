@@ -34,21 +34,19 @@ public:
 		pointer operator->() { return ptr; }
 		bool operator==(const selfType& rhs) { return ptr == rhs.ptr; }
 		bool operator!=(const selfType& rhs) { return ptr != rhs.ptr; }
-		reference operator[](int i) { return *(ptr + i); } //from ptr go i step forward.
+		reference operator[](int i) { return *(ptr + i); }
 		selfType operator+(const int& rhs)
 		{
 			assert(invariant());
 			pointer temp = ptr;
 			return iterator(temp += rhs);
 		}
-		//pre-incremental
 		selfType operator++()
 		{
 			assert(invariant());
 			++ptr;
 			return iterator(ptr);
 		}
-		//post-incremental
 		selfType operator++(int)
 		{
 			assert(invariant());
@@ -77,7 +75,7 @@ public:
 	class reverse_iterator
 	{
 	public:
-		typedef reverse_iterator selfType; //just so we dont have to write iterator all the time 
+		typedef reverse_iterator selfType; 
 		typedef T valueType;
 		typedef T& reference;
 		typedef T* pointer;
@@ -94,21 +92,19 @@ public:
 			ptr = rhs.ptr;
 			return *this;
 		}
-		reference operator[](int i) { return *(ptr - i); } //from ptr go i step forward.
+		reference operator[](int i) { return *(ptr - i); }
 		selfType operator+(const int& rhs)
 		{
 			assert(invariant());
 			pointer temp = ptr;
 			return reverse_iterator(temp -= rhs);
 		}
-		//pre-incremental
 		selfType operator++()
 		{
 			assert(invariant());
 			--ptr;
 			return reverse_iterator(ptr);
 		}
-		//post-incremental
 		selfType operator++(int)
 		{
 			assert(invariant());

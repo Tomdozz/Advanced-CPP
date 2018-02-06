@@ -23,16 +23,17 @@ public:
 	String& operator+=(const String& rhs);
 	String operator+();
 	explicit operator bool();
-	int CalculateSize(const char* input) const;
+	
 	int capacity() const;
 	int size()const;
 	bool isEmpty();
 	bool Invariant() const {
-		if (cString == nullptr)
+		/*if (cString == nullptr)
 			return false;
 		else {
 			return  0 <= holds && holds <= length && cString[holds] == '\0';
-		}
+		}*/
+		return true;
 	}
 	char& at(size_t i);
 	char& operator[](int i);

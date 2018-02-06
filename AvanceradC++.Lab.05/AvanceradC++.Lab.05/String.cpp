@@ -35,10 +35,6 @@ int String::size() const { return holds; }
 const char * String::data() const { return cString; }
 char& String::operator[](int i) { return cString[i]; }
 const char& String::operator[](int i) const { return cString[i]; }
-//const char String::begin() { return cString[0]; }
-//const char String::end() { return cString[holds + 1]; }
-//const char String::rbegin() { return cString[holds + 1]; }
-//const char String::rend() { return cString[0]; }
 
 String & String::operator=(const String & rhs)
 {
@@ -76,7 +72,6 @@ String String::operator+()
 {
 	return String();
 }
-//Tvek på denna 
 void String::reserve(size_t n)
 {
 	assert(Invariant());

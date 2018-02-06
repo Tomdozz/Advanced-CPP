@@ -6,7 +6,7 @@
 #include <cassert>
 
 template <typename T>
-class StringItt :public std::iterator<std::random_iterator_tag, T>
+class StringItt :public std::iterator<std::forward_iterator_tag, T>
 {
 public:
 	typedef int size_type;

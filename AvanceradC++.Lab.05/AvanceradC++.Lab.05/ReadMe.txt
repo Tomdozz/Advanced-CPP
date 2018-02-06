@@ -1,1 +1,1 @@
-
+Made as a part of a assignment in advanced programming in c++, this solution contains two labs. The first one is a implementation of a string class, and the second one is a implementation of a itterator for that string class

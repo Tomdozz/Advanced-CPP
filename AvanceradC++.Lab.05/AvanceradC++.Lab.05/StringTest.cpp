@@ -30,9 +30,6 @@ using std::cin;
 //#include <vector>
 
 void PrintReallocationScheme() {
-
-	//typedef std::vector<int> Vector;
-	//typedef std::string Vector;
 	typedef String Vector;
 	size_t sz;
 
@@ -108,22 +105,22 @@ void TestPushBackReallocation() {
 }
 
 void TestFörGodkäntString() {
-	//-	String()
+
 	String str0;
 	String str00("");
 	assert(str0 == str00);
 	str0 != str00;
-	//-	String(Sträng sträng)
+
 	String s1("foo"); assert(s1 == "foo");
 	String str(s1); assert(str == "foo");
 	String s3("bar");  assert(s3 == "bar");
 
-	//-	~String() Kom ihåg destruktorn!
+
 	delete new String("hej");
 
-	//	-	operator =(Sträng sträng)
+
 	assert((str = s3) == s3);
-	assert((str = str) == s3);	//self assignment
+	assert((str = str) == s3);
 
 
 	String str1("foo"), str2("bar"), str3("hej");
@@ -131,14 +128,9 @@ void TestFörGodkäntString() {
 	assert(str3 == str);
 	assert(str1 == str);
 
-	// operator bool
 	assert(String("huj"));
 	assert(!String(""));
 
-	//-	operator== 
-	//testas överallt!
-
-	//-	operator[](int i) som indexerar utan range check.
 	str = "bar";
 	str[-1]; str[1000];	//No error
 	assert(str[1] == 'a');
@@ -147,15 +139,13 @@ void TestFörGodkäntString() {
 
 	const String sc(str);
 	assert(sc[1] == 'y');
-	assert(std::is_const<std::remove_reference< decltype(sc[1])>::type>::value); //Kolla att det blir en const resultat av indexering
-																				 //-	push_back(char c) lägger till ett tecken sist.
+	assert(std::is_const<std::remove_reference< decltype(sc[1])>::type>::value);
 	str = "bar";
 	str.push_back('a');
 	assert(str == "bara");
 	str.push_back('\0');
 	str.push_back('x');
 	assert(str.size() == 6 && str[4] == '\0' && str[5] == 'x');
-	//-	size(), capacity() and reloccation test;
 	TestPushBackReallocation();
 	PrintReallocationScheme();
 

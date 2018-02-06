@@ -1,9 +1,23 @@
 ﻿  AvanceradC++.Lab.05.cpp
-c:\users\tom\documents\visual studio 2015\projects\avanceradc++.lab.05\avanceradc++.lab.05\string.h(42): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.h(49): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  String.cpp
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(13): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(90): warning C4018: '>': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(143): warning C4018: '>': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(157): warning C4018: '<': signed/unsigned mismatch
+c:\users\tom\documents\github\advanced-cpp\avanceradc++.lab.05\avanceradc++.lab.05\string.cpp(170): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   Skipping... (no relevant changes detected)
   StringTest.cpp
   StringIttTest.cpp
-  String.cpp
-  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\Visual Studio 2015\Projects\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.exe
-  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\Visual Studio 2015\Projects\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.pdb (Full PDB)
+  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\GitHub\Advanced-CPP\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.exe
+  AvanceradC++.Lab.05.vcxproj -> C:\Users\Tom\Documents\GitHub\Advanced-CPP\AvanceradC++.Lab.05\Debug\AvanceradC++.Lab.05.pdb (Full PDB)

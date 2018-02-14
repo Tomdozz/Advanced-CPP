@@ -1,12 +1,1 @@
-//#include "Rational.h"
-//
-//
-//
-//Rational::Rational()
-//{
-//}
-//
-//
-//Rational::~Rational()
-//{
-}
+#include "stdafx.h"

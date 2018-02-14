@@ -1,9 +1,29 @@
 ﻿  stdafx.cpp
+  VG.cpp
+  RelOps.cpp
   Rational.cpp
-c:\users\tom\onedrive\dokument\github\avanceradc++.lab.02\avanceradc++.lab.02\rational.cpp(13): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  GCD.cpp
   AvanceradC++.Lab.02.cpp
-  Test_DLL.cpp
-c1xx : fatal error C1083: Cannot open source file: '..\..\..\Skola år 3\Anvanced Programming in C++\Labrationer\Labb 2\Test_DLL.cpp': No such file or directory
-  RatTest.cpp
-c:\users\tom\onedrive\dokument\skola år 3\anvanced programming in c++\labrationer\labb 2\rattest.cpp(108): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(6): warning C4603: 'DBG_NEW': macro is not defined or definition is different after precompiled header use
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(6): note: Add macro to precompiled header instead of defining here
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(11): note: use of precompiled header
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(7): warning C4603: 'new': macro is not defined or definition is different after precompiled header use
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(7): note: Add macro to precompiled header instead of defining here
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(11): note: use of precompiled header
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(118): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(117): note: while compiling class template member function 'Rational<__int64>::operator int(void)'
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(98): note: see reference to function template instantiation 'Rational<__int64>::operator int(void)' being compiled
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(59): note: see reference to class template instantiation 'Rational<__int64>' being compiled
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(33): warning C4244: 'initializing': conversion from '__int64' to 'short', possible loss of data
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(77): note: see reference to function template instantiation 'Rational<short>::Rational<__int64>(Rational<__int64> &)' being compiled
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(77): note: see reference to function template instantiation 'Rational<short>::Rational<__int64>(Rational<__int64> &)' being compiled
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(71): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(106): note: see reference to function template instantiation 'Rational<short> Rational<short>::operator +=<__int64>(const Rational<__int64> &)' being compiled
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(106): note: see reference to function template instantiation 'Rational<short> Rational<short>::operator +=<__int64>(const Rational<__int64> &)' being compiled
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(85): note: see reference to function template instantiation 'Rational<short> Rational<short>::operator +<__int64>(const Rational<__int64>) const' being compiled
+  c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\avanceradc++.lab.02.cpp(85): note: see reference to function template instantiation 'Rational<short> Rational<short>::operator +<__int64>(const Rational<__int64>) const' being compiled
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(72): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\tom\desktop\skola år3\lab.02.rational\avanceradc++.lab.02\avanceradc++.lab.02\rational.h(73): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
   Generating Code...
+  AvanceradC++.Lab.02.vcxproj -> C:\Users\Tom\Desktop\Skola år3\Lab.02.Rational\AvanceradC++.Lab.02\Debug\AvanceradC++.Lab.02.exe
+  AvanceradC++.Lab.02.vcxproj -> C:\Users\Tom\Desktop\Skola år3\Lab.02.Rational\AvanceradC++.Lab.02\Debug\AvanceradC++.Lab.02.pdb (Full PDB)

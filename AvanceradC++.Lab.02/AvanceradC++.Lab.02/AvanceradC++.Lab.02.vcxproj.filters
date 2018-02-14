@@ -44,9 +44,6 @@
     <ClCompile Include="AvanceradC++.Lab.02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Skola år 3\Anvanced Programming in C++\Labrationer\Labb 2\Test_DLL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Rational.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

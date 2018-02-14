@@ -153,7 +153,6 @@
     <ClInclude Include="VG.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Skola år 3\Anvanced Programming in C++\Labrationer\Labb 2\Test_DLL.cpp" />
     <ClCompile Include="AvanceradC++.Lab.02.cpp" />
     <ClCompile Include="GCD.cpp" />
     <ClCompile Include="Rational.cpp" />
